@@ -1,0 +1,88 @@
+body {
+  padding: 5%;
+  padding-top: 1%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #414042;
+}
+
+h2 {
+  position: fixed;
+  top: 0;
+  right: 10%;
+  font-size: small;
+  color: #efcdae;
+}
+
+.usedButton {
+  background-color: gray;
+}
+
+.picAndWordHidden {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10%;
+  padding-top: 0;
+}
+
+.lettersPlace {
+  padding: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 5%;
+  background-color: blanchedalmond;
+  border-radius: 10px;
+  box-shadow: #f18435 5px 5px;
+}
+
+.lettersButton {
+  background-color: transparent;
+  font-weight: 900;
+  border: solid #414042;
+  box-shadow: #f18435 1px 1px;
+  border-radius: 10px;
+  height: 3em;
+  width: 3em;
+  margin: 5px;
+}
+
+.hidingWordButtons {
+  border: none;
+  background-color: transparent;
+  height: 3em;
+  font-size: x-large;
+  font-weight: 900;
+}
+
+.choseWordLength {
+  padding: 10% 2% 10% 10%;
+}
+
+.win {
+  color: green;
+  font-size: x-large;
+  font-weight: 700;
+}
+
+.lose {
+  color: red;
+  font-size: small;
+  font-weight: 300;
+}
+
+.resetButton {
+  margin: 10px;
+  padding: 10px;
+  background-color: #f18435;
+  box-shadow: #000000 1px 1px;
+  border: none;
+  border-radius: 30px;
+  transition: 500ms ease-in-out;
+}
+
+.resetButton:hover {
+  padding-left: 15px;
+  padding-right: 15px;
+}
